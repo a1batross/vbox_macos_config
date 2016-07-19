@@ -9,7 +9,7 @@ PR me or write an issue, if you found some interesting things.
 3. Close VirtualBox. (really important, because VBox loads VM config once at start and rewriting it on close)
 4. Open a folder with *.vbox. (must be in VirtualBox VM/<name>/<name>.vbox
 5. Find <ExtraData> XML section.
-6. Add these lines at the end of section. Before </ExtraData>
+6. Add these lines at the end of section. Before `</ExtraData>`
 ```
       <ExtraDataItem name="VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" value="Iloveapple"/>
       <ExtraDataItem name="VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" value="MacBookPro11,3"/>
