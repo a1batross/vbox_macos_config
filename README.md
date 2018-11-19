@@ -17,7 +17,7 @@ PR me or write an issue, if you found some interesting things.
       <ExtraDataItem name="VBoxInternal/Devices/smc/0/Config/DeviceKey" value="ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"/>
       <ExtraDataItem name="VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" value="1"/>
       <ExtraDataItem name="VBoxInternal2/EfiBootArgs" value="  "/> <!-- Use this to pass boot args to OSX -->
-      <ExtraDataItem name="VBoxInternal2/EfiGopMode" value="3"/> <!-- https://www.virtualbox.org/manual/ch03.html#efividmode -->
+      <ExtraDataItem name="VBoxInternal2/EfiGraphicsResolution" value="1440x900" /> <!-- https://www.virtualbox.org/manual/ch03.html#efividmode -->
 ```
 7. Convert installation CD to ISO. (don't use patched versions of OS)
 8. Run VM and install it as usually. After installation you will have working macOS copy.
