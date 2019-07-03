@@ -1,5 +1,7 @@
 # Running OS X(macOS) under Virtual Box
 
+[![works badge](https://cdn.rawgit.com/nikku/works-on-my-machine/v0.2.0/badge.svg)](https://github.com/nikku/works-on-my-machine)
+
 I didn't own this method at any way. I found this config in one of russian forums. 
 PR me or write an issue, if you found some interesting things.
 
